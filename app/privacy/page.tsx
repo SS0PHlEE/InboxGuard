@@ -79,7 +79,7 @@ export default function PrivacyPage() {
         <div className="container footer-content">
           <Link className="brand" href="/"><span>✦</span> inboxguard</Link>
           <p>Pause. Check. Decide.</p>
-          <Link href="/privacy">Privacy Policy</Link>
+          <div className="footer-links"><Link href="/privacy">Privacy Policy</Link><Link href="/terms">Terms of Service</Link></div>
         </div>
       </footer>
     </main>
