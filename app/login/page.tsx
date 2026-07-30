@@ -28,7 +28,7 @@ export default function GmailPage() {
   }
 
   return <main className="gmail-page">
-    <nav className="nav container"><Link className="brand" href="/"><span>✦</span> inboxguard</Link><Link className="back-link" href="/">← Back to home</Link></nav>
+    <nav className="nav container"><Link className="brand" href="/"><span>✦</span> Inbox Guard</Link><Link className="back-link" href="/">← Back to home</Link></nav>
     <section className="gmail-shell container">
       <div className="gmail-intro"><p className="eyebrow"><i /> CHECK YOUR INBOX</p><h1>Bring in an email from Gmail.</h1><p>Connect with read-only access, choose a message, and Inbox Guard will copy it into the safety checker.</p><div className="gmail-privacy"><span>🔒</span><p><b>You stay in control.</b><br />Inbox Guard cannot send, edit, or delete email. Disconnect whenever you like.</p></div></div>
       <div className="gmail-card">

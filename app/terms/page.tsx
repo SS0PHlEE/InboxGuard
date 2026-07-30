@@ -10,7 +10,7 @@ export default function TermsPage() {
   return (
     <main className="privacy-page">
       <nav className="nav container">
-        <Link className="brand" href="/"><span>✦</span> inboxguard</Link>
+        <Link className="brand" href="/"><span>✦</span> Inbox Guard</Link>
         <Link className="back-link" href="/">← Back to home</Link>
       </nav>
 
@@ -83,7 +83,7 @@ export default function TermsPage() {
 
       <footer>
         <div className="container footer-content">
-          <Link className="brand" href="/"><span>✦</span> inboxguard</Link>
+          <Link className="brand" href="/"><span>✦</span> Inbox Guard</Link>
           <p>Pause. Check. Decide.</p>
           <div className="footer-links"><Link href="/privacy">Privacy Policy</Link><Link href="/terms">Terms of Service</Link></div>
         </div>
